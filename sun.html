@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Sunshine file</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('.deluxe').click(function(){
+                    $('.context').text("deluxe : Bunch of 10pcs Sunflowers with eucalyptus in nice wrapping ");
+                   $('.price').text("AED 270.00");
+                   $('.premium').css("background-color","#EDEDED");
+                   $('.premium').css("color","black");
+                   $('.deluxe').css("background-color","#761C5A");
+                   $('.deluxe').css("color","white");
+                })
+                $('.premium').click(function(){
+                    $('.context').text("premium : Bunch of 15pcs Sunflowers with eucalyptus in nice wrapping ")
+                   $('.price').text("AED 310.00");
+                   $('.deluxe').css("background-color","#EDEDED");
+                   $('.deluxe').css("color","black");
+                   $('.premium').css("background-color","#761C5A");
+                   $('.premium').css("color","white");
+                })
+            })
+        </script>
+    </head> 
+
+    <body>
+        
+       <section class="product my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid" src=img/sunshine.jpg alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h3>Sunshine</h3>
+                <h6 class="context">Bunch of 10pcs Sunflowers with eucalyptus in nice wrapping </h6>
+                <h2 class="price">AED 239.00</h2>
+                <h3>Preferred Size</h3>
+                <button class="deluxe">Deluxe</button>
+                <button class="premium">Premium</button>
+                <button class="buy-btn"> Add To Cart</button>
+            </div>
+        </div>
+           
+       </section>
+    
+    </body>
+</html>

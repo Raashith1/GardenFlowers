@@ -1,0 +1,15 @@
+img{
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h6,h2,h3{
+    padding : 10px;
+    color: #761C5A;
+}
+
+button{
+    background-color:#761C5A ;
+    color: white;
+}
